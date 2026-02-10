@@ -1,7 +1,6 @@
-"Red Snake", or RSA_Encryptor, is a tool for encrypting/decrypting messages and files with the RSA algorithm.
+RSA_Encryptor is a tool for encrypting/decrypting messages and files with the RSA algorithm.
 
-RSA is a public-key cryptosystem, one of the oldest widely used for secure data transmission. In a public-key cryptosystem, the encryption key is public and distinct from the decryption key, which is kept secret (private). An RSA user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are kept secret. Messages can be encrypted by anyone via the public key but can only be decrypted by someone who knows the private key.
-However, Red Snake might break a private key and decrypt the message.
+RSA is a public-key cryptosystem, one of the oldest widely used for secure data transmission. In a public-key cryptosystem, the encryption key is public and distinct from the decryption key, which is kept secret (private). An RSA user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are kept secret. Messages can be encrypted by anyone via the public key but can only be decrypted by someone who knows the private key. RSA_Encryptor has brute-force methods
 
 PLAN OF DEVELOPMENT (e.g., extension of the program)
 Right now this is a working prototype that can encrypt/decrypt messages; however, there is much more to improve/add/expand.
